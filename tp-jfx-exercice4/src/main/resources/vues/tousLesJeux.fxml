@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="mainVbox" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.TousLesJeux">
+   <children>
+      <Label text="Tous les jeux">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lesJeux" prefHeight="200.0" prefWidth="200.0" />
+      <Button mnemonicParsing="false" onAction="#gotoajout" text="Retour" />
+   </children>
+</VBox>
